@@ -40,6 +40,7 @@
             <li>Ensure that you have the latest version of Chrome or Firefox installed, as the WebDriver will automatically download and use the appropriate driver for your browser.</li>
             <li>Make sure to keep your bot token and chat ID confidential to prevent unauthorized access to your bot and messages.</li>
             <li>Make sure to replace <strong>INSTAGRAM-USERNAME</strong> & <strong>BOT-TOKEN</strong> & <strong>CHAT-ID</strong>.</li>
+            <li>Be aware if u send too many requests Instagram will <strong>BLOCK</strong> your requets for a while. when its happen try it couple hours later.</li>
         </ul>
         <p>Feel free to contribute to this project by submitting pull requests or reporting issues. For any questions or feedback, please contact <a href="mailto:mhamadtahir2003@gmail.com">mhamadtahir2003@gmail.com</a>.</p>
         <h2>have a look at my projects : <a href="https://m7amad-t.web.app">m7amad-t</a></h2>
