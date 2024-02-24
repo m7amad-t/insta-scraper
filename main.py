@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 
 
+
 #! make sure to replace [account_username] [bot_token] [chat_id]  
 # instagram account usernmae that you want to monitor
 account_username = 'ACCOUNT_USERNAME'
