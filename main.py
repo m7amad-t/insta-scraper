@@ -1,17 +1,22 @@
 import time
 import requests
 from selenium import webdriver
-
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from bs4 import BeautifulSoup
 
-accountUsername = 'ACCOUNT_USERNAME'
-bot_token = 'BOT-TOKEN'
-chat_id = 'CHAT-ID'
-monitoredUrl = f'https://www.instagram.com/{accountUsername}/'
 
+#! make sure to replace [account_username] [bot_token] [chat_id]  
+# instagram account usernmae that you want to monitor
+account_username = 'ACCOUNT_USERNAME'
+# your telegaram bot-token
+bot_token = 'BOT-TOKEN'
+# your account chat-id
+chat_id = 'CHAT-ID'
+
+
+monitoredUrl = f'https://www.instagram.com/{account_username}/'
 
 
 #     method to extract data from the page source
